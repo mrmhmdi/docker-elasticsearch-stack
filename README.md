@@ -1,6 +1,6 @@
 
 
-# ELK Stack with Dcoker-Compose (for develepment)
+<h1 align="center">ELK Stack with Dcoker-Compose (for develepment)</h1>
 
 <p align="center" width="100%">
     <img width="10%" src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8b679e63f2b49b27/5d082d93877575d0584761c0/logo-logstash-32-color.svg">
