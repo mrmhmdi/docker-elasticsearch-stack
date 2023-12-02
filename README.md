@@ -83,6 +83,11 @@ docker compose up -d
             }
         }
         ```
+        And don't forget to add this line to `docker-compose.yaml` to map the Filebeat requests to the Logstash container:
+        ```yaml
+        ports:
+            - "5044:5044"
+        ```
 
     </details>
 

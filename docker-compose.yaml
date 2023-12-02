@@ -31,8 +31,6 @@ services:
       - ./logstash/pipeline:/usr/share/logstash/pipeline
       # need to change the path
       - /path/to/the/logs/folder:/var/log/host
-    ports:
-      - "9600:9600"
     environment:
       - ELASTICSEARCH_HOST=http://elasticsearch:9200
     networks:
